@@ -1,0 +1,170 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #e4f0f5; /* Light blue background */
+    color: #333;
+}
+
+header {
+    background: #8b10dd; /* White header for contrast */
+    padding: 10px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center align nav items */
+}
+
+nav ul li {
+    display: inline-block; /* Arrange as buttons */
+    margin-right: 15px; /* Space between buttons */
+}
+
+nav ul li:nth-child(1) a {
+    background-color: #FF5733; /* Coral Red */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(2) a {
+    background-color: #33C1FF; /* Light Sky Blue */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(3) a {
+    background-color: #8E44AD; /* Purple */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(4) a {
+    background-color: #E74C3C; /* Red */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(5) a {
+    background-color: #F39C12; /* Vibrant Orange */
+    color: #ffffff; /* White text */
+}
+nav ul li:nth-child(6) a {
+    background-color: #a0f518; /* Vibrant Orange */
+    color: #ffffff; /* White text */
+}
+
+/* Add some padding to the buttons */
+nav ul li a {
+    padding: 12px 20px; /* Increased padding for a larger button feel */
+    border-radius: 8px; /* More rounded corners */
+    text-decoration: none;
+    display: inline-block; /* Ensure they behave like buttons */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Change color on hover for each button */
+nav ul li a:hover {
+    filter: brightness(0.85); /* Darken on hover */
+}
+
+#hero {
+    text-align: center;
+    padding: 60px 0;
+    background: #F1C40F; /* Bright Yellow For the hero section */
+    color: #a22424; /* White text */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.container {
+    max-width: 1500px; /* Limit container width */
+    margin: 20px auto;
+    background-color: #4eaa96; /* White background for container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+.container1 {
+    max-width: 1500px; /* Limit container width */
+    margin: 20px auto;
+    background-color: #3fe54f; /* White background for container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+.container2 {
+    max-width: 1500px; /* Limit container width */
+    margin: 20px auto;
+    background-color: #ecaf2c; /* White background for container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */   
+}
+
+
+
+h2 {
+    color: #0747a6; /* Dark blue color for h2 */
+    margin-top: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #5d3eaa; /* Purple color for h3 */
+}
+
+.certification-list {
+    list-style: circle;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.colorful-text {
+    color: #3738e1; /* Bright color for important text */
+    font-weight: bold;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Media Query for Mobile Responsiveness */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; /* Stack links vertically on smaller screens */
+        margin: 5px 0;
+    }
+
+    .container {
+        margin: 10px;
+        padding: 20px; /* Reduced padding for containers */
+    }
+}

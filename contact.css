@@ -1,0 +1,164 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #e7f3ff; /* Light blue background */
+    color: #333;
+}
+
+header {
+    background-color: #007bff; /* Bright blue header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+av ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center align nav items */
+}
+
+nav ul li {
+    display: inline-block; /* Arrange as buttons */
+    margin-right: 15px; /* Space between buttons */
+}
+
+nav ul li:nth-child(1) a {
+    background-color: #FF5733; /* Coral Red */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(2) a {
+    background-color: #33C1FF; /* Light Sky Blue */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(3) a {
+    background-color: #8E44AD; /* Purple */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(4) a {
+    background-color: #E74C3C; /* Red */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(5) a {
+    background-color: #F39C12; /* Vibrant Orange */
+    color: #ffffff; /* White text */
+}
+nav ul li:nth-child(6) a {
+    background-color: #a0f518; /* Vibrant Orange */
+    color: #ffffff; /* White text */
+}
+
+/* Add some padding to the buttons */
+nav ul li a {
+    padding: 12px 20px; /* Increased padding for a larger button feel */
+    border-radius: 8px; /* More rounded corners */
+    text-decoration: none;
+    display: inline-block; /* Ensure they behave like buttons */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Change color on hover for each button */
+nav ul li a:hover {
+    filter: brightness(0.85); /* Darken on hover */
+}
+
+.contact-info {
+    margin: 20px 0;
+    padding: 20px;
+    background: #ffffff; /* White background for contact info */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+h3 {
+    color: #0056b3; /* Darker blue for subheadings */
+}
+
+a {
+    color: #007bff; /* Link color */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #0056b3; /* Darker blue for main heading */
+    margin-bottom: 15px;
+}
+
+form {
+    background: #1ce90e; /* Light background for the form */
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for form */
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%; /* Full-width inputs */
+    padding: 10px;
+    border: 1px solid #c2dd0e; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 20px; /* Space between elements */
+}
+
+form button {
+    background-color: #007bff; /* Button color */
+    color: #1a0404; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Media Query for Mobile Responsiveness */
+@media (max-width: 500px) {
+    nav ul li {
+        display: block; /* Stack links vertically on smaller screens */
+        margin: 5px 0;
+    }
+}
+.contact {
+    max-width: 1500px; /* Limit container width */
+    margin: 20px auto;
+    background-color: #dcfc25; /* White background for container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */   
+}
+.contact1 {
+    max-width: 1300px; /* Limit container width */
+    margin: 20px auto;
+    background-color: #18dcd8; /* White background for container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */   
+}
+.contact99 {
+    max-width: 900px; /* Limit container width */
+    margin: 20px auto;
+    background-color: #0ed543; /* White background for container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */   
+}

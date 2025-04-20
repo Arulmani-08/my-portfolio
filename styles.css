@@ -1,0 +1,430 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light cyan background */
+    color: #424242; /* Dark gray text for better contrast */
+}
+
+    header {
+        background: #8b10dd; /* White header for contrast */
+        padding: 10px 0;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+  
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center align nav items */
+}
+
+nav ul li {
+    display: inline-block; /* Arrange as buttons */
+    margin-right: 15px; /* Space between buttons */
+}
+
+nav ul li:nth-child(1) a {
+    background-color: #FF5733; /* Coral Red */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(2) a {
+    background-color: #33C1FF; /* Light Sky Blue */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(3) a {
+    background-color: #8E44AD; /* Purple */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(4) a {
+    background-color: #E74C3C; /* Red */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(5) a {
+    background-color: #F39C12; /* Vibrant Orange */
+    color: #ffffff; /* White text */
+}
+nav ul li:nth-child(6) a {
+    background-color: #a0f518; /* Vibrant Orange */
+    color: #ffffff; /* White text */
+}
+
+/* Add some padding to the buttons */
+nav ul li a {
+    padding: 12px 20px; /* Increased padding for a larger button feel */
+    border-radius: 8px; /* More rounded corners */
+    text-decoration: none;
+    display: inline-block; /* Ensure they behave like buttons */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Change color on hover for each button */
+nav ul li a:hover {
+    filter: brightness(0.85); /* Darken on hover */
+}
+
+#hero {
+    text-align: center;
+    padding: 60px 0;
+    background: #F1C40F; /* Bright Yellow For the hero section */
+    color: #ffffff; /* White text */
+}
+
+.profile-photo {
+    margin: 20px auto;
+    width: 150px; /* Width of the circular frame */
+    height: 150px; /* Height of the circular frame */
+    border-radius: 50%; /* Makes the frame circular */
+    overflow: hidden; /* Prevents overflow */
+    border: 5px solid #ffffff; /* White border */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25); /* Increased shadow for depth */
+}
+
+.profile-photo img {
+    width: 100%; /* Fills the frame */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Prevents inline spacing */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #dcdcdc; /* Light gray border */
+    background: #ffffff; /* White background for sections */
+}
+
+h3 {
+    color: #C0392B; /* Bright Red for headings */
+}
+
+footer {
+    text-align: center;
+    padding: 25px 0;
+    background: #34495E; /* Dark Blue-Gray for footer */
+    color: #ffffff; /* White text */
+}
+
+/* Specific section styling for Education, Skills, Projects, Contact */
+section h2 {
+    color: #16A085; /* Teal */
+    margin-bottom: 20px;
+    border-bottom: 3px solid #E67E22; /* Carrot Orange for underline */
+    padding-bottom: 12px;
+    text-align: left; /* Align to the left */
+}
+
+/* Semester grades heading */
+.section h3 {
+    color: #555555; /* Dark gray */
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: left; /* Align to the left */
+}
+
+/* 1st and 2nd Semester subheadings */
+.section h4 {
+    color: #2980B9; /* Bright Blue */
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left; /* Align to the left */
+}
+
+/* Grades table styling */
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.grades-table th,
+.grades-table td {
+    border: 1px solid #9B59B6; /* Purple */
+    padding: 10px;
+    text-align: left;
+}
+
+.grades-table th {
+    background-color: #F39C12; /* Vibrant Orange for header */
+    font-weight: bold;
+}
+
+/* Grade colors */
+.grade-a {
+    color: #27AE60; /* Bright Green */
+    font-weight: bold;
+}
+
+.grade-b-plus {
+    color: #FFA500; /* Amber */
+    font-weight: bold;
+}
+
+strong {
+    color: #2C3E50; /* Darker color for strong emphasis */
+}body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F8FF; /* Light Alice Blue background for the entire body */
+    color: #333;
+}
+
+header {
+    background-color: #00796b; /* Teal header */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #2bdd03; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+nav ul li a:hover {
+    background-color: #004d40; /* Darker teal on hover */
+    transform: scale(1.1); /* Scale effect */
+}
+
+/* Container with Background Color */
+.container {
+    background-color: #26e242; /* White background for the container */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h2 {
+    color: #d32f2f; /* Red color for main section headers */
+}
+
+h3 {
+    color: #1976d2; /* Blue for subheadings */
+}
+
+h4 {
+    color: #f57c00; /* Orange for h4 elements */
+    margin-top: 15px;
+}
+
+ul {
+    margin-left: 20px; /* Indentation for list */
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove spacing between cells */
+    margin-top: 10px;
+}
+
+.grades-table th, .grades-table td {
+    border: 1px solid #806262; /* Light border */
+    padding: 10px; /* Padding inside table cells */
+    text-align: left; /* Align text to the left */
+}
+
+.grades-table th {
+    background-color: #1976d2; /* Blue header */
+    color: rgb(88, 184, 243); /* White text in header */
+}
+
+.grade-a {
+    color: #4CAF50; /* Green for A grades */
+}
+
+.grade-b-plus {
+    color: #ff9800; /* Orange for B+ grades */
+}
+
+.grade-b {
+    color: #ffeb3b; /* Yellow for B grades */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00796b; 
+    color: #26c138; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; 
+}
+
+footer a {
+    color: #0fe0fc; /* Light turquoise for footer links */
+}
+
+footer a:hover {
+    text-decoration: underline; 
+    color: #b8e024; /* White on hover */
+}
+
+/* Media Query for Mobile Responsiveness */
+@media (max-width: 600px) {
+    header, footer {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+        background-color: #f53f08;
+        margin: 10px; /* Reduced margin */
+    }
+
+    nav ul {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    nav ul li {
+        margin: 10px 0; 
+    }
+}
+
+.container9 {
+    max-width: 2000px; /* Limit container width */
+    margin: 20px auto;
+    background-color: #ecaf2c; /* White background for container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */   
+}
+.container10 {
+    max-width: 500px; /* Limit container width */
+    margin: 20px auto;
+    background-color: #ecaf2c; /* White background for container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */   
+}
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e7f0e2; /* Light background */
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; /* Green header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Container Styles */
+.container4, .container3, .container5, .container6 {
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Heading Styles */
+h3 {
+    color: #4CAF50; /* Dark Green for headings */
+}
+
+h2 {
+    color: #FF5722; /* Orange for major section heading */
+}
+
+h4 {
+    color: #1976D2; /* Blue for subheadings */
+}
+
+/* Course List Styles */
+ul {
+    list-style-type: circle; /* Circle bullets for lists */
+    padding-left: 20px; /* Indentation */
+}
+
+ul li {
+    margin: 5px 0; /* Space between items */
+}
+
+/* Table Styles */
+.grades-table {
+    width: 100%; /* Full width for tables */
+    border-collapse: collapse; /* Collapse borders */
+    margin-bottom: 20px; /* Space below tables */
+}
+
+.grades-table th,
+.grades-table td {
+    border: 1px solid #050202; /* Light gray border */
+    padding: 10px; /* Padding for table cells */
+    text-align: left; /* Left-aligned text */
+}
+
+.grades-table th {
+    background-color: #08f608; /* Green header for table */
+    color: rgb(22, 18, 18); /* White text for headers */
+}
+
+.grade-a {
+    background-color: #C8E6C9; /* Light green for A grades */
+}
+
+.grade-b-plus {
+    background-color: #dfded2; /* Light yellow for B+ grades */
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; /* Block display for small screens */
+        margin: 5px 0;
+    }
+
+    .container4, .container3, .container5, .container6 {
+        margin: 10px 0; /* Reduced margin */
+        padding: 15px; /* Reduced padding */
+    }
+}
